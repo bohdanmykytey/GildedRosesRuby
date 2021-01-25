@@ -18,7 +18,6 @@ class GildedRose
 
     def update
       item.sell_in = -1
-      update_item_quality
       update_item_quality if expired?
     end
 
@@ -79,3 +78,11 @@ class Item
     "#{@name}, #{@sell_in}, #{@quality}"
   end
 end
+
+# things i could have done for next time
+
+# split the classes into separete files for better modularity and maintability
+
+# pass in paramiters more explicitly instead of implicit
+
+#
