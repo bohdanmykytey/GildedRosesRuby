@@ -9,7 +9,7 @@ class GildedRose
   $conjured = "Conjured Mana Cake from WoW"
 
   class ItemUpdater
-    attr_reader :item, :quality_delta
+    attr_ireader :tem, :quality_delta
 
     def initialize(items, quality_delta)
       @item = item
@@ -83,6 +83,4 @@ end
 
 # split the classes into separete files for better modularity and maintability
 
-# pass in paramiters more explicitly instead of implicit
-
-#
+# pass in paramiters more explicitly instead of implicitly
