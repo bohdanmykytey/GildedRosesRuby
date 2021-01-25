@@ -9,7 +9,7 @@ class GildedRose
   $conjured = "Conjured Mana Cake from WoW"
 
   class ItemUpdater
-    attr_ireader :tem, :quality_delta
+    attr_reader :item, :quality_delta
 
     def initialize(items, quality_delta)
       @item = item
