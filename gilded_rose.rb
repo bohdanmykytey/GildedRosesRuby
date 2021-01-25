@@ -50,7 +50,7 @@ class GildedRose
     @items.each do |item|
       case item.name
       when $backstage_pass
-        BackstagePassUpdater.new(itenm, 1).update
+        BackstagePassUpdater.new(item, 1).update
       when $aged_brie
         ItemUpdater.new(item, 1).update
       when $sulfuras
